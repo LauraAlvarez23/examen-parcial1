@@ -1,0 +1,127 @@
+body{
+    font-family: "Cromorand Garamont", serif;
+}
+
+a{
+    text-decoration: none;
+    color: 	#25231F;
+}
+
+.header-elemets{
+    align-items: center;
+}
+
+.nav-header{
+    background-color: #f1eee9;
+    color: 	#25231F;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px, 35px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    ul{
+        font-family: "Manrope", sans-serif;
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        font-size: 10px;
+    }
+}
+
+.tittle{
+    padding: 10px;
+    p{
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+.talk-button{
+    color:#fff;
+    background-color: #C6A04A;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+
+.first-section{
+   text-align: left;
+   background-image: url(./img/esc2.png);
+   color: #fff;
+   
+    p{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+    }
+}
+
+.build-button{
+    color:#fff;
+    background-color: #C6A04A;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+
+.second-section{
+    background-color: #f1eee9;
+}
+
+.cards-info{
+    color: #25231F;
+    justify-content: space-between;
+    p{
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+    }
+
+    h2{
+        font-family: "Cromorand Garamont", serif;
+        font-size: 11px;
+    }
+
+    a{
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+    }
+}
+
+.solutions-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.solution-card{
+    text-align: center;
+    border: solid 1px #6b655a;
+    background-color: #f1eee9;
+    margin: 0 10px;
+    height: 320px;
+    width: 350px;
+    text-align: left;
+
+
+    img{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        object-fit: cover;
+    }
+}
