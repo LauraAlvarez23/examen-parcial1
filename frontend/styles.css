@@ -56,13 +56,19 @@ a{
 }
 
 .first-section{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
    text-align: left;
    background-image: url(./img/esc2.png);
    color: #fff;
+   height: 500px;
+
    
     p{
         font-family: "Manrope", sans-serif;
         font-size: 12px;
+        padding: 10px;
     }
 }
 
@@ -74,6 +80,7 @@ a{
     border: none;
     border-radius: 20px;
     cursor: pointer; 
+    width: 150px;
 }
 
 .second-section{
