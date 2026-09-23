@@ -63,13 +63,18 @@ a{
    background-image: url(./img/esc2.png);
    color: #fff;
    height: 500px;
+   font-size: 30px;
 
    
     p{
         font-family: "Manrope", sans-serif;
-        font-size: 12px;
+        font-size: 15px;
         padding: 10px;
     }
+}
+
+.first-elements{
+    margin-left: 20px;
 }
 
 .build-button{
@@ -81,6 +86,7 @@ a{
     border-radius: 20px;
     cursor: pointer; 
     width: 150px;
+    ;
 }
 
 .second-section{
